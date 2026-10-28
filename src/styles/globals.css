@@ -1,0 +1,87 @@
+@import 'tailwindcss' source('../');
+@import './tokens.css';
+@source '../../styleguide.html';
+@source '../../privacidade.html';
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 88px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    min-height: 100dvh;
+    background: var(--bg);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--ink);
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* "Vidro" sem backdrop-filter: medido, o blur custava GPU a cada quadro de rolagem */
+  .glass {
+    background: rgb(255 255 255 / 0.94);
+    border: 1px solid rgb(255 255 255 / 0.9);
+  }
+
+  .press {
+    transition: transform var(--dur-instant) var(--ease-out);
+  }
+  .press:active {
+    transform: scale(0.97);
+  }
+}
+
+/* Movimento reduzido: tudo instantâneo, salvo quando ?movimento=1 força a demonstração */
+@media (prefers-reduced-motion: reduce) {
+  html:not(.force-motion) *,
+  html:not(.force-motion) *::before,
+  html:not(.force-motion) *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

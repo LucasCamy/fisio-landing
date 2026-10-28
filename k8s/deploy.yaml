@@ -1,0 +1,82 @@
+# Cloudlane Homelab · namespace landingpages · porta 8217
+# Público: https://fisio.cloudlane.com.br -> http://192.168.15.19:8217 (Cloudlane Tunnel)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fisio-landing
+  namespace: landingpages
+  labels:
+    app: fisio-landing
+  annotations:
+    keel.sh/policy: "force"
+    keel.sh/trigger: "poll"
+    keel.sh/pollSchedule: "@every 1m"
+    # Sem match-tag, a policy force compara tags e nunca vê novo digest no mesmo :latest.
+    keel.sh/match-tag: "true"
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: fisio-landing
+  template:
+    metadata:
+      labels:
+        app: fisio-landing
+    spec:
+      containers:
+        - name: web
+          image: ghcr.io/lucascamy/fisio-landing:latest
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 8080
+          resources:
+            requests:
+              cpu: 10m
+              memory: 16Mi
+            limits:
+              cpu: 100m
+              memory: 64Mi
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 20
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+          # Raiz somente leitura: o nginx-unprivileged escreve pid e cache temporário em /tmp.
+          volumeMounts:
+            - name: tmp
+              mountPath: /tmp
+      volumes:
+        - name: tmp
+          emptyDir:
+            medium: Memory
+            sizeLimit: 16Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fisio-landing
+  namespace: landingpages
+  labels:
+    app: fisio-landing
+spec:
+  type: LoadBalancer
+  selector:
+    app: fisio-landing
+  ports:
+    - name: http
+      port: 8217
+      targetPort: 8080
+      protocol: TCP

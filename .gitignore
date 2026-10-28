@@ -1,0 +1,14 @@
+node_modules
+dist
+test-results
+playwright-report
+e2e/screenshots
+_media_work
+*.log
+.DS_Store
+.claude
+/media
+fisio-media.zip
+MEDIA_REVIEW.jpg
+FRAMES_REVIEW.jpg
+scripts/__pycache__

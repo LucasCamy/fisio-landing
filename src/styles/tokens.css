@@ -1,0 +1,118 @@
+/*
+ * Tokens do ARQ-E (Precisão Clínica & Cuidado Humano).
+ * Fonte única de cor, tipo, raio, sombra e motion. Componentes nunca usam hex solto.
+ * Contrastes calculados em DESIGN.md.
+ */
+:root {
+  /* Superfícies */
+  --bg: #ffffff;
+  --surface-card: #f2f5f9;
+  --surface-elevated: #ffffff;
+  --surface-sunken: #e8edf4;
+  --night-clinical: #0a0f1d;
+  --night-raised: #141b2d;
+  --dock: rgb(17 24 39 / 0.96); /* sólido: backdrop-filter em elemento fixo custava GPU na rolagem */
+
+  /* Texto e linhas */
+  --ink: #0f172a;
+  --ink-body: #475467;
+  /* #8A94A6 da referência escurecido para #7C8699: passa 3:1 (texto grande) também sobre #F2F5F9 */
+  --ink-soft: #7c8699;
+  --ink-on-night: #ffffff;
+  --ink-on-night-muted: #a9b3c6;
+  --line: rgb(15 23 42 / 0.07);
+  --line-strong: rgb(15 23 42 / 0.14);
+  --line-on-night: rgb(255 255 255 / 0.1);
+
+  /* Acento (padrão: azul clínico) */
+  --accent: #4f7df3; /* marca: halos, pontos, progresso, foco, texto grande */
+  --accent-action: #3a6be8; /* preenchimento de botão com texto branco (AA 4,72:1) */
+  --accent-action-hover: #2f5fd9;
+  --accent-soft: rgb(79 125 243 / 0.12);
+  --accent-halo: #5b8def;
+  --on-accent: #ffffff;
+
+  /* Estado (sempre com forma + texto) */
+  --success: #13795b;
+  --success-soft: rgb(19 121 91 / 0.14);
+  --success-night: #4ade80; /* ponto "Aberto agora" sobre --night-clinical */
+  --warning: #9a5b00;
+
+  /* Tipografia */
+  --font-display: 'Bricolage Grotesque Variable', 'Manrope Variable', system-ui, sans-serif;
+  --font-body: 'Manrope Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-data: 'JetBrains Mono', ui-monospace, 'Cascadia Mono', monospace;
+
+  /* Raios: 10 chips internos / 16 cards / 28 molduras / 36 módulos / pílula */
+  --radius-chip: 10px;
+  --radius-card: 16px;
+  --radius-frame: 28px;
+  --radius-module: 36px;
+
+  /* Sombras tingidas com --ink, nunca preto puro */
+  --shadow-soft: 0 1px 2px rgb(15 23 42 / 0.04), 0 8px 24px -12px rgb(15 23 42 / 0.12);
+  --shadow-lift: 0 2px 6px rgb(15 23 42 / 0.05), 0 24px 48px -20px rgb(15 23 42 / 0.28);
+  --shadow-dock: 0 18px 40px -14px rgb(10 15 29 / 0.55);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-instant: 120ms;
+  --dur-fast: 180ms;
+  --dur-base: 280ms;
+  --dur-slow: 560ms;
+  --dur-scene: 900ms;
+}
+
+/* Alternativa de acento: verde-sálvia biomecânico */
+:root[data-accent='clinical-sage'] {
+  --accent: #2e7d67; /* 4,95:1 sobre branco */
+  --accent-action: #2e7d67;
+  --accent-action-hover: #256a57;
+  --accent-soft: rgb(46 125 103 / 0.12);
+  --accent-halo: #4fae92;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface-card: var(--surface-card);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-night: var(--night-clinical);
+  --color-night-raised: var(--night-raised);
+  --color-dock: var(--dock);
+  --color-ink: var(--ink);
+  --color-ink-body: var(--ink-body);
+  --color-ink-soft: var(--ink-soft);
+  --color-on-night: var(--ink-on-night);
+  --color-on-night-muted: var(--ink-on-night-muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-line-night: var(--line-on-night);
+  --color-accent: var(--accent);
+  --color-accent-action: var(--accent-action);
+  --color-accent-action-hover: var(--accent-action-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-halo: var(--accent-halo);
+  --color-on-accent: var(--on-accent);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-success-night: var(--success-night);
+  --color-warning: var(--warning);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-body);
+  --font-data: var(--font-data);
+
+  --radius-chip: var(--radius-chip);
+  --radius-card: var(--radius-card);
+  --radius-frame: var(--radius-frame);
+  --radius-module: var(--radius-module);
+
+  --shadow-soft: var(--shadow-soft);
+  --shadow-lift: var(--shadow-lift);
+  --shadow-dock: var(--shadow-dock);
+
+  --ease-out: var(--ease-out);
+  --ease-in-out: var(--ease-in-out);
+}

@@ -1,0 +1,15 @@
+CPU 4x · 390px · movimento permitido
+seção              quadros  >50ms  pior(ms)  ms perdidos
+inicio                  42      1        67           67
+queixas                 67      0        17            0
+abordagem               74      0        50            0
+atendimento             91      0        17            0
+como-funciona          130      0        17            0
+sobre                   81      0        17            0
+duvidas                 64      0        17            0
+contato                 56      0        17            0
+footer                 136      0        17            0
+
+Long Animation Frames: 1 · só render/pintura: 72 ms
+
+LoAF por seção (ms): {"inicio":72}

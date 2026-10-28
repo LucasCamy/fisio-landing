@@ -1,0 +1,4 @@
+CPU 4x · 390px · movimento permitido
+abrir   pior quadro 17 ms · quadros >25 ms: 0 · tempo perdido: 0 ms
+fechar  pior quadro 17 ms · quadros >25 ms: 0 · tempo perdido: 0 ms
+Animações nativas no painel ao abrir: opacity

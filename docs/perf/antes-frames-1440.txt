@@ -1,0 +1,10 @@
+CPU 4x · 1440px · movimento · 1146 quadros no pipeline
+seção            quadros  descartados  parciais  % ruim   estágios lentos
+antes                 33           2         8    30.3%   {}
+queixas              124           0        62    50.0%   {}
+abordagem            230           0       115    50.0%   {}
+atendimento          152           0        76    50.0%   {}
+como-funciona        208           0       103    49.5%   {}
+sobre                 88           0        44    50.0%   {}
+duvidas               84           0        42    50.0%   {}
+contato              149           0        70    47.0%   {}

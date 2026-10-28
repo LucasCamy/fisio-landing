@@ -1,0 +1,98 @@
+[
+  {
+    "name": "hero-specialist",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-42bd9068-598a-4fe4-a284-56d41d482ea3.png",
+    "prompt": "Use case: background-extraction / precise-object-edit. Input image is the edit target. Keep the SAME exact woman, identity, face, hairstyle, expression, pose, body, hands and white coat over navy blouse, and soft portrait lighting. Change ONLY the entire background: REMOVE the wall bars, equipment, plant, treatment table and all clinic interior details. Replace with a completely clean, seamless, uniform very pale cool grey #F2F5F9 studio background, no objects, no texture, no gradient, no visible shadow or horizon. The edge should naturally integrate into a #F2F5F9 hero card. Photorealistic editorial portrait, half-body framing, portrait 6:7 for eventual1200x1400 crop, preserve head and hands entirely. No text, logos, name badge or watermark. Background remains opaque, not transparent.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "anatomy-top",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-d36bdd85-22b3-4319-b461-515983c36a3f.png",
+    "prompt": "Use case: precise-object-edit. Input image is the reference and edit target. Create ONE isolated product render of ONLY the UPPER lumbar vertebra AND its attached blue intervertebral disc from the reference. Remove the lower vertebra and entire pedestal. Keep the upper vertebra and disc shape, orientation, relative proportions, clear optical crystal material and #5B8DEF internal light consistent with reference. Put single upper vertebra with blue disc attached underneath in center of a pure white #FFFFFF square seamless background with generous white margins. Same three-quarter oblique view, same diffuse light and crisp realistic crystal surfaces, no artificial ground/base. Whole object visible. No text, marks, labels, logos, arrows or watermark.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "anatomy-base",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-ff4de71b-f167-4173-bfb6-3de6729402b7.png",
+    "prompt": "Use case: precise-object-edit. Input image is reference and edit target. Create ONE isolated product render of ONLY the LOWER lumbar vertebra standing on its clear acrylic oval pedestal from the reference. Remove the upper vertebra AND blue intervertebral disc completely. Keep the lower vertebra and base shape, orientation, proportions, clear translucent optical crystal material and subtle #5B8DEF internal light consistent with reference. Center single lower vertebra and pedestal on a pure white #FFFFFF square seamless background with generous margins, same three-quarter oblique view and diffused studio light, soft contact shadow. Top surface is exposed and ready to receive the upper segment and disc. Whole specimen and base visible. No text, marks, labels, logos, arrows, watermark.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "anatomy-assembled",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-8983bc9e-f36d-4c1f-be01-b86182fa4ec5.png",
+    "prompt": "Use case: scientific-educational. ONE premium photorealistic 3D medical product render, landscape aspect 6:5. A precise compact lumbar spinal motion segment: exactly TWO adjacent human lumbar vertebrae, one above the other, with one intervertebral disc between them. Anatomically credible lumbar bodies, pedicles, spinal canal, transverse and spinous processes; natural proportions, three-quarter anterior oblique view. Vertebrae made of frosted translucent optical crystal, pale white edges, internal very soft clinical blue #5B8DEF glow, disc of softly luminous blue crystal. Perfect biomechanical axial alignment and cushioning. Standing upright on a simple thin clear acrylic oval plinth. Pure white #FFFFFF seamless background and soft contact shadow, no horizon, no studio furniture. Centered isolated object with generous white margins; whole specimen and base visible. Luxury precise medical visualization, not sci-fi. No human, text, labels, arrows, extra discs, extra vertebrae, watermarks or logos.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "specialist-hands",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-384b03de-f409-4526-afec-98e5e2658457.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial physiotherapy photograph, portrait 5:6. Close view of the hands of a Brazilian woman physiotherapist in immaculate white coat over navy blouse, carefully holding a small anatomically credible ivory lumbar spine and pelvis model, pointing with one index finger at the lumbar joint. Two natural hands with anatomically correct fingers, no gloves. Face cropped above mouth, subject is skilled hands and spine model. Premium contemporary physiotherapy studio: pale #F2F5F9 walls, warm light oak and soft daylight, subtle blue #5B8DEF accents, cream treatment table softly out of focus. Warm, calm, human and scientifically precise, realistic skin texture, elegant restrained editorial photography. No written text, logos, watermark, collage or border. Keep whole hands/model well within frame.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "clinic-reception",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-f667d8f1-84fc-4347-bf13-58221dce00c7.png",
+    "prompt": "Use case: photorealistic-natural. ONE architectural editorial interior photograph, landscape 16:10. Premium contemporary Brazilian physiotherapy and orthopedic rehabilitation studio reception. Clean curved pale oak reception counter in foreground left, white/ice #F2F5F9 surfaces, subtle clinical blue #5B8DEF and navy #0A0F1D accents, indirect linear ceiling lights and abundant diffuse natural daylight through large sheer-covered windows. Minimal pale upholstered seating, discreet green plant, doorway to rehabilitation space with pale treatment table, wooden wall bars and minimal therapeutic exercise equipment at back. Welcoming human atmosphere, precise clean architecture, realistic premium materials, straight verticals, professional architecture lens. Unoccupied, no people. No signage, words, letters, branding, logos, watermark, collage or border.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "case-01",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-767963b6-ef38-417b-b06c-b3805af2f4e8.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial image, portrait 4:5. Contemporary Brazilian physiotherapy studio, soft natural daylight, pale #F2F5F9, warm light oak, restrained #5B8DEF clinical blue and navy. Human, calm, scientifically attentive. No text, letters, branding, watermark, borders, collage, exaggerated suffering, red pain marks, hospital machinery or electrotherapy. Whole relevant anatomy comfortably within crop. Tasteful close rear three-quarter view of an adult female patient wearing a navy racerback sports top, neck, shoulders and lumbar posture naturally aligned in comfortable standing position. Physiotherapist's two hands lightly assessing shoulder alignment. Focus on relaxed neck/back and anatomical posture under soft side daylight, patient's face turned away; realistic natural skin and anatomy.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "case-02",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-199b0048-c760-4f1b-bdaf-50395950675c.png",
+    "prompt": "Use case: scientific-educational. ONE high precision premium 3D render in portrait 4:5. Anatomically credible human knee joint with distal femur, proximal tibia, fibula, patella, menisci and ligaments clearly proportioned. Translucent frosted medical crystal and subtle glowing #5B8DEF cartilage surfaces, stable gently flexed articulated position. Pure pale #F2F5F9 background, soft diffuse light, elegant clear glass realism, centered whole joint with clean margins. No text, labels, arrows, watermark, logos, extra bones or sci-fi elements.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "case-03",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-28d43b67-ee87-4078-835a-4ec1a3225792.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial image, portrait 4:5. Contemporary Brazilian physiotherapy studio, soft natural daylight, pale #F2F5F9, warm light oak, restrained #5B8DEF clinical blue and navy. Human, calm, scientifically attentive. No text, letters, branding, watermark, borders, collage, exaggerated suffering, red pain marks, hospital machinery or electrotherapy. Whole relevant anatomy comfortably within crop. Safe individual postoperative orthopedic rehabilitation, no wounds. Adult male patient in navy shorts seated on a cream treatment table, therapist in white coat gently supporting his slightly bent knee and ankle during controlled range-of-motion rehabilitation. Focus on precise two-handed support, knee and calm patient posture. Realistic limb anatomy, intact skin. Face of therapist mostly out of shot, no pain expression.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "case-04",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-ee211eaa-bfc9-461c-8914-1396523d73db.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial photograph, portrait 4:5. Contemporary Brazilian physiotherapy studio with pale #F2F5F9 surfaces, light oak, diffuse natural daylight, restrained clinical blue #5B8DEF and navy. Realistic skin, correct hand/limb anatomy, calm focused care, one patient per appointment. No text, written screens, letters, logos, watermark, collage, border, hospital machinery or suffering. Close editorial three-quarter side view from waist down of an adult runner in navy shorts performing a controlled single-leg step-down on a low pale wooden exercise platform, one foot grounded, the other gently lowered. A physiotherapist's hand near the hip to guide alignment, focus on stable knee, strong calf and clean running shoe, biomechanical gait and strength assessment. Both legs and feet visible, not running fast.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "case-05",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-80a49fa6-0f92-4354-8a01-71a1bce17711.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial photograph, portrait 4:5. Contemporary Brazilian physiotherapy studio with pale #F2F5F9 surfaces, light oak, diffuse natural daylight, restrained clinical blue #5B8DEF and navy. Realistic skin, correct hand/limb anatomy, calm focused care, one patient per appointment. No text, written screens, letters, logos, watermark, collage, border, hospital machinery or suffering. Close editorial view of a skilled female physiotherapist's two hands gently performing myofascial release on the upper trapezius and shoulder of an adult female patient lying comfortably face-down on a cream treatment table. Patient wears navy sports top, modest neckline, relaxed posture, head supported in face cradle. Two natural hands, gentle pressure, no massage oil or spa props. Clinical therapeutic precision.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "step-01-avaliacao",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-0eeaf486-d051-4b61-94a5-41ffa294899e.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial photograph, portrait 4:5. Contemporary Brazilian physiotherapy studio with pale #F2F5F9 surfaces, light oak, diffuse natural daylight, restrained clinical blue #5B8DEF and navy. Realistic skin, correct hand/limb anatomy, calm focused care, one patient per appointment. No text, written screens, letters, logos, watermark, collage, border, hospital machinery or suffering. Input image is reference for the fictional physiotherapist's identity only: preserve her Brazilian appearance, dark brown tied hair, white coat over navy blouse. Show her sitting beside an adult female patient in navy athletic clothing, engaged in a warm initial assessment conversation at a light oak consultation desk. Therapist points at a digital tablet showing only a simple unlabeled generic joint silhouette, no readable writing. Both listening attentively, medium-wide portrait composition includes both people, tablet and hands.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "step-02-planejamento",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-a836d463-4b54-4ebc-9821-ad8881a69acf.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial photograph, portrait 4:5. Contemporary Brazilian physiotherapy studio with pale #F2F5F9 surfaces, light oak, diffuse natural daylight, restrained clinical blue #5B8DEF and navy. Realistic skin and correct limb anatomy, calm focused individualized care. No text, letters, logos, watermark, collage, border, hospital machinery or suffering. Input image is identity reference for the therapist only; preserve her dark brown hair, Brazilian features and white coat over navy blouse. Show therapist gently performing controlled shoulder joint mobilization for a relaxed adult female patient lying supine fully clothed in navy athletic top on cream treatment table. One therapist hand supports patient's elbow, other steadies shoulder, patient's arm comfortably bent, correct anatomy. Medium framing showing therapist attentive expression, patient upper body and both therapist hands. Evidence-based manual therapy and gaining range of motion.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "step-03-procedimento",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-02c23051-c6c6-499b-9c1f-4b959f298a5e.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial photograph, portrait 4:5. Contemporary Brazilian physiotherapy studio with pale #F2F5F9 surfaces, light oak, diffuse natural daylight, restrained clinical blue #5B8DEF and navy. Realistic skin and correct limb anatomy, calm focused individualized care. No text, letters, logos, watermark, collage, border, hospital machinery or suffering. Input image is identity reference for the therapist only, preserve her Brazilian features and dark brown tied hair. Therapist now in fitted navy clinical scrubs, kneeling beside adult female patient performing a controlled quadruped bird-dog exercise on pale blue mat: right arm reaching forwards, left leg extending backwards, remaining hand and knee stable on mat, neutral spine. Therapist carefully cues shoulder and pelvic alignment with open hands. Full-body patient and therapist visible, spacious clear composition, correctly connected four limbs per person. Close supervision, therapeutic core stability and motor control.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "step-04-acompanhamento",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-46e7d8e6-bc6b-48dd-8f83-4c0472bffa1a.png",
+    "prompt": "Use case: photorealistic-natural. ONE premium editorial photograph, portrait 4:5. Contemporary Brazilian physiotherapy studio with pale #F2F5F9 surfaces, light oak, diffuse natural daylight, restrained clinical blue #5B8DEF and navy. Realistic skin and correct limb anatomy, calm focused individualized care. No text, letters, logos, watermark, collage, border, hospital machinery or suffering. Adult Brazilian woman patient, about 35, brown hair in ponytail, navy athletic top and slate-blue leggings, performing a confident balanced low walking lunge in airy physiotherapy studio near open daylight windows. Full body including both feet visible. Upright neutral posture, relaxed content expression, natural athletic strength, comfortable return to normal movement and running. Subtle blurred therapist in background observing with warm smile. Clear realistic human anatomy, no heroic jumping, no gym crowd.",
+    "method": "built-in image_gen"
+  },
+  {
+    "name": "hero-ambient-source",
+    "source": "C:/Users/3730/.codex/generated_images/01a183ce-dcda-7953-9347-068c5ebff0a7/exec-2a1ef528-0788-48f2-a118-1805f67208e1.png",
+    "prompt": "Use case: photorealistic-natural. ONE cinematic wide 16:9 still intended as base plate for subtle ambient animation. Premium contemporary Brazilian physiotherapy studio, diffuse sunlight entering tall sheer-curtain windows on left, warm light oak, pale #F2F5F9 walls and clean cream treatment table softly out of focus behind. In the foreground right on a pale white console: a small translucent crystal anatomical lumbar model with exactly two vertebrae and a softly glowing clinical blue #5B8DEF intervertebral disc on clear acrylic base. Side light glints delicately on the crystal. Calm welcoming human-scale architecture, realistic textures, shallow depth of field, airy high key. No people, no text or writing, no watermark, logo, collage or border.",
+    "method": "built-in image_gen"
+  }
+]

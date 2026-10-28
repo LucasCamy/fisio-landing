@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "browser": {
+    "status": "passed",
+    "checked_at": "2026-10-28T19:03:34.856Z",
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "images_decoded": 270,
+    "canvas_draws": 270,
+    "avif_count": 135,
+    "webp_count": 135,
+    "failures": [],
+    "video": {
+      "duration": 4.5,
+      "width": 1280,
+      "height": 720,
+      "seek_and_canvas_draw": true,
+      "playback_progress": true
+    }
+  },
+  "visual": {
+    "status": "passed",
+    "reviewer": "Codex visual inspection",
+    "method": "Full-resolution procedural PNG renders and contact sheet decoded from the final AVIF files",
+    "frames": [
+      {
+        "frame": 10,
+        "observation": "Upper crystal segment remains fully inside the frame; offset and tilt show the initial asymmetric load, with joint axes visible."
+      },
+      {
+        "frame": 60,
+        "observation": "The upper segment approaches the neutral axis; disc and lower support align without cropping."
+      },
+      {
+        "frame": 75,
+        "observation": "The clinical blue bloom and ellipse reach peak intensity at the joint interface."
+      },
+      {
+        "frame": 110,
+        "observation": "Both crystal segments are aligned and nearly motionless on the acrylic base; balanced force vectors remain visible."
+      }
+    ],
+    "stills": "All 15 final images reviewed in MEDIA_REVIEW.jpg; original generated sources also inspected. Hero background edited with image_gen to a clean pale backdrop.",
+    "corrections_completed": [
+      "Removed top clipping in early sequence frames",
+      "Increased blue pulse visibility",
+      "Removed studio equipment from hero portrait background"
+    ]
+  },
+  "encoding": {
+    "all_image_decodes": "passed",
+    "all_dimensions": "passed",
+    "av1C_valid": 135,
+    "video_decode": "passed",
+    "video_metadata": "passed",
+    "moov_before_mdat": true,
+    "loop_boundary_mean_absolute_error_8bit": 2.031189,
+    "visual_review_frames": {
+      "required": [
+        10,
+        60,
+        110
+      ],
+      "status": "passed",
+      "pulse_reviewed": 75
+    },
+    "browser_decode": {
+      "status": "passed",
+      "checked_at": "2026-10-28T19:03:34.856Z",
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "images_decoded": 270,
+      "canvas_draws": 270,
+      "avif_count": 135,
+      "webp_count": 135,
+      "failures": [],
+      "video": {
+        "duration": 4.5,
+        "width": 1280,
+        "height": 720,
+        "seek_and_canvas_draw": true,
+        "playback_progress": true
+      }
+    }
+  },
+  "total_media_bytes": 7319469,
+  "total_media_files": 271
+}

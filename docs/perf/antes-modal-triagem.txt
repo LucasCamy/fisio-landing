@@ -1,0 +1,7 @@
+CPU 4x · 1440px · movimento permitido
+abrir   pior quadro 67 ms · quadros >25 ms: 2 · tempo perdido: 117 ms
+   LoAF 70 ms
+     script 35 ms · layout forçado 14 ms · DIV#root.onclick → Ch @ main-ht2ndH22.js
+   LoAF 59 ms (só renderização/pintura)
+fechar  pior quadro 17 ms · quadros >25 ms: 0 · tempo perdido: 0 ms
+Animações nativas no painel ao abrir: opacity, transform
